@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3CAAAC1C7F706E00772532 /* CloneCommandoBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAAA61C7F706E00772532 /* CloneCommandoBlue.png */; };
+		5D3CAAAF1C7F706E00772532 /* CloneCommandoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAAA91C7F706E00772532 /* CloneCommandoRed.png */; };
+		5D3CAAB31C7F710500772532 /* CloneCommandoGeneric.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAAB21C7F710500772532 /* CloneCommandoGeneric.png */; };
+		5D3CAAB71C7F786300772532 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAAB61C7F786300772532 /* Black.png */; };
+		5D3CAABC1C7FC00300772532 /* BlueLaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAABA1C7FC00300772532 /* BlueLaser.png */; };
+		5D3CAABD1C7FC00300772532 /* RedLaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CAABB1C7FC00300772532 /* RedLaser.png */; };
+		5D7717321C6BEB4600025AFF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5D7717311C6BEB4600025AFF /* GameScene.sks */; };
+		5DA166C41BFE6BB000F2ED80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA166C31BFE6BB000F2ED80 /* GameViewController.swift */; };
+		5DA166C71BFE6BB000F2ED80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA166C51BFE6BB000F2ED80 /* Main.storyboard */; };
+		5DA166C91BFE6BB000F2ED80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA166C81BFE6BB000F2ED80 /* Assets.xcassets */; };
+		5DA166CC1BFE6BB000F2ED80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA166CA1BFE6BB000F2ED80 /* LaunchScreen.storyboard */; };
+		5DA166D41BFE6C0600F2ED80 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA166D31BFE6C0600F2ED80 /* Soldier.swift */; };
+		5DA166D61BFE6C2100F2ED80 /* Army.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA166D51BFE6C2100F2ED80 /* Army.swift */; };
+		5DA166D71BFE6E5C00F2ED80 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA166C11BFE6BB000F2ED80 /* GameScene.swift */; };
+		5DA166D81BFE6E5F00F2ED80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA166BD1BFE6BB000F2ED80 /* AppDelegate.swift */; };
+		5DCD18021C6CD63A00980720 /* Jedi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD18011C6CD63A00980720 /* Jedi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3CAAA61C7F706E00772532 /* CloneCommandoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloneCommandoBlue.png; sourceTree = "<group>"; };
+		5D3CAAA91C7F706E00772532 /* CloneCommandoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloneCommandoRed.png; sourceTree = "<group>"; };
+		5D3CAAB21C7F710500772532 /* CloneCommandoGeneric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloneCommandoGeneric.png; sourceTree = "<group>"; };
+		5D3CAAB61C7F786300772532 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		5D3CAABA1C7FC00300772532 /* BlueLaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueLaser.png; sourceTree = "<group>"; };
+		5D3CAABB1C7FC00300772532 /* RedLaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLaser.png; sourceTree = "<group>"; };
+		5D7717311C6BEB4600025AFF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5DA166BA1BFE6BB000F2ED80 /* The Lego Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Lego Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA166BD1BFE6BB000F2ED80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DA166C11BFE6BB000F2ED80 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5DA166C31BFE6BB000F2ED80 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5DA166C61BFE6BB000F2ED80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DA166C81BFE6BB000F2ED80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DA166CB1BFE6BB000F2ED80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DA166CD1BFE6BB000F2ED80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA166D31BFE6C0600F2ED80 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		5DA166D51BFE6C2100F2ED80 /* Army.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Army.swift; sourceTree = "<group>"; };
+		5DCD18011C6CD63A00980720 /* Jedi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jedi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA166B71BFE6BB000F2ED80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3BB22B1C6BB4AA001256AB /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				5D3CAABA1C7FC00300772532 /* BlueLaser.png */,
+				5D3CAABB1C7FC00300772532 /* RedLaser.png */,
+				5D3CAAB61C7F786300772532 /* Black.png */,
+				5D3CAAB21C7F710500772532 /* CloneCommandoGeneric.png */,
+				5D3CAAA61C7F706E00772532 /* CloneCommandoBlue.png */,
+				5D3CAAA91C7F706E00772532 /* CloneCommandoRed.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		5DA166B11BFE6BB000F2ED80 = {
+			isa = PBXGroup;
+			children = (
+				5DA166BC1BFE6BB000F2ED80 /* The Lego Game */,
+				5DA166BB1BFE6BB000F2ED80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DA166BB1BFE6BB000F2ED80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA166BA1BFE6BB000F2ED80 /* The Lego Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA166BC1BFE6BB000F2ED80 /* The Lego Game */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BB22B1C6BB4AA001256AB /* Sprites */,
+				5DA166BD1BFE6BB000F2ED80 /* AppDelegate.swift */,
+				5D7717311C6BEB4600025AFF /* GameScene.sks */,
+				5DA166C11BFE6BB000F2ED80 /* GameScene.swift */,
+				5DA166C31BFE6BB000F2ED80 /* GameViewController.swift */,
+				5DA166C51BFE6BB000F2ED80 /* Main.storyboard */,
+				5DA166C81BFE6BB000F2ED80 /* Assets.xcassets */,
+				5DA166CA1BFE6BB000F2ED80 /* LaunchScreen.storyboard */,
+				5DA166CD1BFE6BB000F2ED80 /* Info.plist */,
+				5DA166D31BFE6C0600F2ED80 /* Soldier.swift */,
+				5DCD18011C6CD63A00980720 /* Jedi.swift */,
+				5DA166D51BFE6C2100F2ED80 /* Army.swift */,
+			);
+			path = "The Lego Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DA166B91BFE6BB000F2ED80 /* The Lego Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA166D01BFE6BB000F2ED80 /* Build configuration list for PBXNativeTarget "The Lego Game" */;
+			buildPhases = (
+				5DA166B61BFE6BB000F2ED80 /* Sources */,
+				5DA166B71BFE6BB000F2ED80 /* Frameworks */,
+				5DA166B81BFE6BB000F2ED80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Lego Game";
+			productName = "The Lego Game";
+			productReference = 5DA166BA1BFE6BB000F2ED80 /* The Lego Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DA166B21BFE6BB000F2ED80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Seth Davison";
+				TargetAttributes = {
+					5DA166B91BFE6BB000F2ED80 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = VCVNF4D3G2;
+					};
+				};
+			};
+			buildConfigurationList = 5DA166B51BFE6BB000F2ED80 /* Build configuration list for PBXProject "The Lego Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DA166B11BFE6BB000F2ED80;
+			productRefGroup = 5DA166BB1BFE6BB000F2ED80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DA166B91BFE6BB000F2ED80 /* The Lego Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DA166B81BFE6BB000F2ED80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA166CC1BFE6BB000F2ED80 /* LaunchScreen.storyboard in Resources */,
+				5D3CAABD1C7FC00300772532 /* RedLaser.png in Resources */,
+				5D3CAAAF1C7F706E00772532 /* CloneCommandoRed.png in Resources */,
+				5D3CAABC1C7FC00300772532 /* BlueLaser.png in Resources */,
+				5DA166C91BFE6BB000F2ED80 /* Assets.xcassets in Resources */,
+				5D3CAAB71C7F786300772532 /* Black.png in Resources */,
+				5D7717321C6BEB4600025AFF /* GameScene.sks in Resources */,
+				5D3CAAB31C7F710500772532 /* CloneCommandoGeneric.png in Resources */,
+				5DA166C71BFE6BB000F2ED80 /* Main.storyboard in Resources */,
+				5D3CAAAC1C7F706E00772532 /* CloneCommandoBlue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA166B61BFE6BB000F2ED80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA166D71BFE6E5C00F2ED80 /* GameScene.swift in Sources */,
+				5DCD18021C6CD63A00980720 /* Jedi.swift in Sources */,
+				5DA166C41BFE6BB000F2ED80 /* GameViewController.swift in Sources */,
+				5DA166D41BFE6C0600F2ED80 /* Soldier.swift in Sources */,
+				5DA166D81BFE6E5F00F2ED80 /* AppDelegate.swift in Sources */,
+				5DA166D61BFE6C2100F2ED80 /* Army.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DA166C51BFE6BB000F2ED80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA166C61BFE6BB000F2ED80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DA166CA1BFE6BB000F2ED80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA166CB1BFE6BB000F2ED80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DA166CE1BFE6BB000F2ED80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DA166CF1BFE6BB000F2ED80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DA166D11BFE6BB000F2ED80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Lego Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Lego-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DA166D21BFE6BB000F2ED80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Lego Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.The-Lego-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DA166B51BFE6BB000F2ED80 /* Build configuration list for PBXProject "The Lego Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA166CE1BFE6BB000F2ED80 /* Debug */,
+				5DA166CF1BFE6BB000F2ED80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA166D01BFE6BB000F2ED80 /* Build configuration list for PBXNativeTarget "The Lego Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA166D11BFE6BB000F2ED80 /* Debug */,
+				5DA166D21BFE6BB000F2ED80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DA166B21BFE6BB000F2ED80 /* Project object */;
+}
